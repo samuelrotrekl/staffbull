@@ -1,0 +1,483 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "arial";
+    box-sizing: border-box;
+    outline:none;
+    text-decoration: none;
+  }
+  body{
+    background-image: url("img/bg.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+html{
+  scroll-behavior: smooth;
+  }
+  .navbar{
+    background: rgb(46, 46, 46);
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    border: 2px solid white;
+  }
+  .logo{
+    font-size: 30px;
+    color: white;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  .navbar h1{
+    margin-bottom: 45px;
+  }
+  .navbar ul li {
+    padding: 39px 28px;
+    position: relative;
+    border: 1px solid white;
+  }
+  .navbar ul li a {
+    font-size: 15px;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .navbar ul li a:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .logo:hover{
+    color: wheat;
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+  .content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    position: absolute;
+  }
+  .content1{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    float:left;
+    justify-content: center;
+    height: 645px;
+    margin-top: 100px;
+  }
+  .content2{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    float:left;
+    justify-content: center;
+    height: 645px;
+    margin-top: 100px;
+  }
+  .hist-content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    position: absolute;
+    top:26.5%;
+    height: 60vh;
+  }
+  .hist-content1{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    float:left;
+    justify-content: center;
+    height: 645px;
+  }
+  .hist-content2{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    float:left;
+    justify-content: center;
+    height: 645px;
+  }
+  .hist-text{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 40px;
+  }
+  .hist-img{
+    box-shadow: rgb(0, 0, 0) 0px 1px 8px 5px;
+  }
+  h1 {
+    text-align: center;
+    margin-top:50px;
+    font-size: 60px;
+  }
+  .hist-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .hist-text:hover{
+    transform: scale(1.1);
+  }
+.content1 img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.content2 img:hover{
+  transform: scale(1.05);
+}
+.box{
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.card1{
+	height: 400px;
+	width: 500px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 90px;
+	margin: 2px 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+}
+.card2{
+	height: 400px;
+	width: 500px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 90px;
+	margin: 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+}
+.card3{
+	height: 400px;
+	width: 500px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 90px;
+	margin: 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+}
+.card1 p{
+  display: block;
+  text-align: center;
+  padding-top:70px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.card2 p{
+  display: block;
+  text-align: center;
+  padding-top:35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+}
+.card3 p{
+  display: block;
+  text-align: center;
+  padding-top:45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.card1:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+  background: black;
+  color: white;
+}
+.card2:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+  background: black;
+  color: white;
+}
+.card3:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+  background: black;
+  color: white;
+}
+.text{
+  width:70%;
+  left: 15%;
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(46, 46, 46);
+  padding:15px;
+  color: wheat;
+  border-radius: 60px;
+}
+.foto{
+  display: flex;
+  top: 56%;
+  left: 18%;
+  position: absolute;
+}
+.foto img{
+  margin: 0px 30px;
+}
+.foto img:hover{
+  transform: scale(1.05);
+}
+.fa-dog{
+  font-size: 60px;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.fa-brain{
+  font-size: 60px;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.fa-heart{
+  font-size: 60px;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+  
+}
+.fa-paw{
+  font-size: 60px;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.zaj1{
+	height: 300px;
+	width: 300px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 60px;
+	margin: 2px 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+  font-size: 22px;
+  font-family: "anton";
+}
+.zaj1 p{
+  font-family: "bebas neue";
+  font-weight: 100;
+  letter-spacing: .1;
+}
+.zaj2 p{
+  font-family: "bebas neue";
+  font-weight: 100;
+  letter-spacing: .1;
+}
+.zaj3 p{
+  font-family: "bebas neue";
+  font-weight: 100;
+  letter-spacing: .1;
+}
+.zaj4 p{
+  font-family: "bebas neue";
+  font-weight: 100;
+  letter-spacing: .1;
+}
+.zaj2{
+	height: 300px;
+	width: 300px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 60px;
+	margin: 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+  font-size: 22px;
+}
+.zaj3{
+	height: 300px;
+	width: 300px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 60px;
+	margin: 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+  font-size: 20px;
+}
+.zaj4{
+	height: 300px;
+	width: 300px;
+  padding-right: 40px;
+  padding-left: 40px;
+	border-radius: 60px;
+	margin: 30px;
+  text-align: center;
+  background: rgb(46, 46, 46);
+  margin-top: 70px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-items: center;
+  font-size: 22px;
+}
+.zaj1:hover{
+  background: pink;
+  border: 2px solid black;
+  color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.zaj2:hover{
+  background: pink;
+  border: 2px solid black;
+  color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.zaj3:hover{
+  background: pink;
+  border: 2px solid black;
+  color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.zaj4:hover{
+  background: pink;
+  border: 2px solid black;
+  color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.zaj-box{
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+.fa-solid {
+  margin-left: 4px;
+  padding-top: 3px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 18%;
+  top: 90%;
+  background: rgb(46, 46, 46);
+}
+.dropdown-menu ul{
+  display: block;
+  margin: 1px;
+}
+.dropdown-menu ul li{
+ padding: 5px;
+}
+.navbar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 16.5%;
+  top: 65%;
+  background-color: rgb(46, 46, 46);
+  z-index: 1;
+}
+
+.navbar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 1px;
+}
+
+.navbar ul li:hover .dropdown-menu ul li {
+  padding: 5px;
+}
+.img1{
+  top: 100%;
+  position: absolute;
+}
+.img2{
+  top: 200%;
+  position: absolute;
+}
+.img3{
+  top: 300%;
+  position: absolute;
+}
+.gotopbtn{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(46, 46, 46);
+  bottom: 20px;
+  left: 20px;
+  font-size: 10px;
+  z-index: 10;
+  text-align: center;
+}
+.gotopbtn img{
+  padding-top: 10px;
+  
+}
+.resize7{
+  width: 20px;
+  height: auto;
+}
